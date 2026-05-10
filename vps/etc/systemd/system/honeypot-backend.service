@@ -1,0 +1,11 @@
+[Unit]
+Description=Full Port Honeypot Backend
+After=network.target
+
+[Service]
+ExecStart=/opt/honeypot/honeypot.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

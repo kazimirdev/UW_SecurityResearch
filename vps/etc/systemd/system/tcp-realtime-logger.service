@@ -1,0 +1,11 @@
+[Unit]
+Description=TCP realtime honeypot logger
+After=network.target
+
+[Service]
+ExecStart=/root/analyze_hits.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

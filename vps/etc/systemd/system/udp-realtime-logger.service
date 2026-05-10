@@ -1,0 +1,11 @@
+[Unit]
+Description=UDP realtime honeypot logger
+After=network.target
+
+[Service]
+ExecStart=/root/analyze_udp_hits.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
