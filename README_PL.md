@@ -1,5 +1,7 @@
 # Debian 13 Full-Port Honeypot Lab
 
+W tym badaniu zrobiłem honeypota na 65536 portach wirtualnego własnego serwera a zrobiłem analizy z pobranych danych.
+
 ## Rozdziały
 - [01 — Cel i przygotowanie](chapters/PL/01.md)
 - [02 — Obróbka danych](chapters/PL/02.md)
